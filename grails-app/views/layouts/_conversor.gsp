@@ -4,9 +4,9 @@
 	<title>Conversor de medidas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<asset:stylesheet href="application.css"/>
+	<asset:javascript src="application.js"/>
 </head>
 <body>
-	<asset:javascript src="application.js"/>
 	<div class="body" style="width: 90%; padding: 15pt;">
 		<div class="well well-sm">
 			<h3 class="text-center">Conversor de medidas</h3>
@@ -14,7 +14,7 @@
 		<form method="post">
 			<g:if test="${errorMessage}">
 				<div class="row">
-					<div class="span8 alert alert-danger">
+					<div class="alert alert-danger">
 					${errorMessage}
 					</div>
 				</div>
