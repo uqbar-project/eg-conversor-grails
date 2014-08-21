@@ -2,7 +2,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Conversor de medidas</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<asset:stylesheet href="application.css"/>
 	<asset:javascript src="application.js"/>
 </head>
@@ -30,19 +30,21 @@
 					<input class="form-control" type="text" name="valorOrigen"
 						placeholder="Ingrese un valor" value="${conversor.valorOrigen}" />
 				</div>
-			</div>
-			<br/>
-			<div class="row">
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-12">
+					<br>
+				</div>
 				<div class="col-md-4">
 					<p class="text-right">
 					<br>
 					${conversor.unidadMedidaDestino}
 					</p>
+					<div class="col-md-4">
+					</div>
 				</div>
 				<g:render template="/layouts/valorConvertido" model="['valor': conversor.valorDestino]" />
-			</div>
-			<br>
-			<div class="row">
+				<br>
 				<div class="col-md-12 text-center">
 					<g:actionSubmit value="Convertir" class="btn btn-success btn-lg" action="convertir"/>
 				</div>
