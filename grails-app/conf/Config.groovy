@@ -59,6 +59,9 @@ grails.exceptionresolver.params.exclude = ['password']
 // configure auto-caching of queries by default (if false you can cache individual queries with 'cache: true')
 grails.hibernate.cache.queries = false
 
+// Nuevo de Grails 2.4
+grails.assets.bundle=true
+
 environments {
     development {
         grails.logging.jul.usebridge = true
