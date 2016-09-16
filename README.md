@@ -2,7 +2,7 @@
 
 <div>
 <img src="https://cloud.githubusercontent.com/assets/4549002/18518303/d6a3472a-7a75-11e6-94bf-59f101dedb20.png" height="170px" width="170px"/>
-<img src="video/demo.gif" height="50%" width="50%"/>
+<img src="video/demo.gif" height="75%" width="75%"/>
 </div>
 
 ## Explicación general
