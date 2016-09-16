@@ -1,6 +1,9 @@
 # Conversor genérico en Grails
 
+<div>
 <img src="https://cloud.githubusercontent.com/assets/4549002/18518303/d6a3472a-7a75-11e6-94bf-59f101dedb20.png" height="170px" width="170px"/>
+<img src="video/demo.gif" height="350px" width="210px"/>
+</div>
 
 ## Explicación general
 En el [capítulo específico de este apunte](https://docs.google.com/document/d/1g9Q7TxWU5hJu6_V8r63eSCek1EC1PCTL-f310XzDANE/edit#heading=h.5slbq2o2ct46) 
